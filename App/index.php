@@ -18,13 +18,13 @@
                     <div class = "mt-5">
 
                         <label for="sendto-id">To</label>
-                        <input class="form-control"  type="text" name ="sendto" id="sendto-id">
+                        <input class="form-control" type="email" name ="sendto" id="sendto-id" required>
 
                         <label for="subject-id" class = "mt-3">Subject</label>
-                        <input class="form-control"  type="text" name ="subject" id="subject-id">
+                        <input class="form-control" type="text" name ="subject" id="subject-id" required>
 
                         <label for="messege-id" class = "mt-3">Messege</label>
-                        <textarea class="form-control" rows="5" type="text" name ="messege" id="messege-id"></textarea>
+                        <textarea class="form-control" rows="5" type="text" name ="messege" id="messege-id" required></textarea>
 
                         <button type="submit" class = "mt-5 btn btn-primary">Send</button>
 
